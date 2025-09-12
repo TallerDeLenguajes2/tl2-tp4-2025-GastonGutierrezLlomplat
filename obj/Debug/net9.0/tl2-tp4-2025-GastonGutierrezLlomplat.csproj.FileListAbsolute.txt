@@ -27,3 +27,8 @@ D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net9.0\re
 D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net9.0\tl2-tp4-2025-GastonGutierrezLlomplat.pdb
 D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net9.0\tl2-tp4-2025-GastonGutierrezLlomplat.genruntimeconfig.cache
 D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net9.0\ref\tl2-tp4-2025-GastonGutierrezLlomplat.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\tl2-tp4-2025-GastonGutierrezLlomplat.xml
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net9.0\tl2-tp4-2025-GastonGutierrezLlomplat.xml

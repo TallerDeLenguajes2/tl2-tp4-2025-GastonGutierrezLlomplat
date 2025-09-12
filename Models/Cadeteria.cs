@@ -28,11 +28,11 @@ public class Cadeteria
     public List<Cliente> ListadoClientes => listadoClientes;
     public List<Pedido> ListadoPedidos => listadoPedidos;
 
-    public Pedido AgregarPedido(string observacion, int idCliente)
+    public Pedido? AgregarPedido(string observacion, int idCliente)
     {
-        Cliente clienteElegido = listadoClientes.Find(c => c.Id == idCliente);
+        Cliente? clienteElegido = listadoClientes.Find(c => c.Id == idCliente);
 
-        if (clienteElegido == null)
+        if (clienteElegido is null)
         {
             // Retorna null si no se encuentra el cliente
             return null;
@@ -65,9 +65,9 @@ public class Cadeteria
 
     public bool CambiarEstado(int idPedido)
     {
-        Pedido pedido = listadoPedidos.Find(p => p.NroPedido == idPedido);
+        Pedido? pedido = listadoPedidos.Find(p => p.NroPedido == idPedido);
 
-        if (pedido == null)
+        if (pedido is null)
         {
             return false;
         }
@@ -83,7 +83,7 @@ public class Cadeteria
 
     public bool ReasignarPedido(int idPedido, int idCadete)
     {
-        Pedido pedido = listadoPedidos.Find(p => p.NroPedido == idPedido);
+        Pedido? pedido = listadoPedidos.Find(p => p.NroPedido == idPedido);
 
         if (pedido == null)
         {

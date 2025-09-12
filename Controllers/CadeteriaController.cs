@@ -39,7 +39,12 @@ public class CadeteriaController : ControllerBase
         return Ok(informe);
     }
 
-    // POST: api/cadeteria/pedido
+    /// <summary>
+    ///     Permite que un cliente agregue un pedido
+    /// </summary>
+    /// <param name="observacion">Observación del pedido. Ej: sin mayonesa</param>
+    /// <param name="idCliente">Id del cliente que realizó el pedido</param>
+    /// <returns>Retorna OK y el pedido creado si hubo éxito, NotFound si no se encontró el cliente.</returns>
     [HttpPost("pedido")]
     public IActionResult AgregarPedido(string observacion, int idCliente)
     {
