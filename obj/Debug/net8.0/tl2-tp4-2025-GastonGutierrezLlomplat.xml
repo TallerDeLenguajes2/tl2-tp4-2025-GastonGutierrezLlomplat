@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>tl2-tp4-2025-GastonGutierrezLlomplat</name>
+    </assembly>
+    <members>
+        <member name="M:CadeteriaController.AgregarPedido(System.String,System.Int32)">
+            <summary>
+                Permite que un cliente agregue un pedido
+            </summary>
+            <param name="observacion">Observación del pedido. Ej: sin mayonesa</param>
+            <param name="idCliente">Id del cliente que realizó el pedido</param>
+            <returns>Retorna OK y el pedido creado si hubo éxito, NotFound si no se encontró el cliente.</returns>
+        </member>
+    </members>
+</doc>
