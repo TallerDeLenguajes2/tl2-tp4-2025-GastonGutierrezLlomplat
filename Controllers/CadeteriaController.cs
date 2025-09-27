@@ -9,12 +9,20 @@ using System.Collections.Generic;     // Para usar List<>
 [Route("api/[controller]")]
 public class CadeteriaController : ControllerBase
 {
-    private static Cadeteria _cadeteria = new Cadeteria("Mi Cadeteria", 12345678);
-    static CadeteriaController()
+    private Cadeteria _cadeteria = new Cadeteria("Comotti", 3851164479);
+    private accesoDatosCadeteria ADCadeteria;
+    private accesoDatosCadetes ADCadetes;
+    private accesoDatosPedidos ADPedidos;
+    public CadeteriaController()
     {
-        _cadeteria.ListadoCadetes.Add(new Cadete(1, "Juan Perez", "Calle 1", "1234"));
-        _cadeteria.ListadoClientes.Add(new Cliente(1, "Cliente 1", "Calle A", "5678"));
+        ADCadeteria = new accesoDatosCadeteria();
+        ADCadetes = new accesoDatosCadetes();
+        ADPedidos = new accesoDatosPedidos();
+        cadeteria = ADCadeteria.Obtener();
+        cadeteria.AgregarListaCadetes(ADCadetes.Obtener());
+        cadeteria.AgregarListaPedidos(ADPedios.Obtener());
     }
+
     // GET: api/cadeteria/pedidos
     [HttpGet("pedidos")]
     public IActionResult GetPedidos()
