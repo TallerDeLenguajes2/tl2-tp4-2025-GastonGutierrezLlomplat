@@ -1,0 +1,45 @@
+[
+  {
+    "NroPedido": 1,
+    "Estado": "Realizado",
+    "Observacion": "AAAAAAA",
+    "Cliente": {
+      "Id": 1,
+      "Nombre": "Supermercado El Sol",
+      "Telefono": "1132124545",
+      "Direccion": "Av. Belgrano 234"
+    },
+    "CadeteAsignado": null
+  },
+  {
+    "NroPedido": 2,
+    "Estado": "Realizado",
+    "Observacion": "BBBBBBBBBB",
+    "Cliente": {
+      "Id": 2,
+      "Nombre": "Farmacia San Jos\u00E9",
+      "Telefono": "1145789632",
+      "Direccion": "Av. Col\u00F3n 455"
+    },
+    "CadeteAsignado": {
+      "Id": 4,
+      "Nombre": "Camila Torres",
+      "Direccion": "Callej\u00F3n de la Luna 55",
+      "Telefono": "1144667788",
+      "Jornal": 500,
+      "PedidosRealizados": 1
+    }
+  },
+  {
+    "NroPedido": 3,
+    "Estado": "Pendiente",
+    "Observacion": "BBBBBBBBBB",
+    "Cliente": {
+      "Id": 2,
+      "Nombre": "Farmacia San Jos\u00E9",
+      "Telefono": "1145789632",
+      "Direccion": "Av. Col\u00F3n 455"
+    },
+    "CadeteAsignado": null
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "NroPedido": 1,
+    "Estado": "Pendiente",
+    "Observacion": "BBBBBBBBBB",
+    "Cliente": {
+      "Id": 2,
+      "Nombre": "Farmacia San Jos\u00E9",
+      "Telefono": "1145789632",
+      "Direccion": "Av. Col\u00F3n 455"
+    },
+    "CadeteAsignado": null
+  }
+]

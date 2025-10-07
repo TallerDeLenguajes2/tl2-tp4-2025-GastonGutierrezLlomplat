@@ -6,6 +6,7 @@ using espacioClientes;                // Para acceder a la clase Cliente
 using System.Collections.Generic;     // Para usar List<>
 using espacioAccesoADatosCadetes;
 using espacioAccesoADatosClientes;
+using espacioAccesoADatosPedidos;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -14,6 +15,7 @@ public class CadeteriaController : ControllerBase
     private static Cadeteria _cadeteria = new Cadeteria("Mi Cadeteria", 12345678);
     private static AccesoADatosCadetes datosCadetes = new AccesoADatosCadetes();
     private static AccesoADatosClientes datosClientes = new AccesoADatosClientes();
+    private static AccesoADatosPedidos datosPedidos = new AccesoADatosPedidos();
 
     public CadeteriaController()
     {
@@ -25,8 +27,6 @@ public class CadeteriaController : ControllerBase
         {
             _cadeteria.ListadoClientes.AddRange(datosClientes.Obtener());
         }
-
-
     }
 
 
@@ -65,7 +65,11 @@ public class CadeteriaController : ControllerBase
     {
         var pedidoCreado = _cadeteria.AgregarPedido(observacion, idCliente);
         if (pedidoCreado == null)
+        {
             return NotFound("Cliente no encontrado");
+        }
+
+        datosPedidos.Guardar(_cadeteria.ListadoPedidos);
 
         return Ok(pedidoCreado);
     }
@@ -76,7 +80,12 @@ public class CadeteriaController : ControllerBase
     {
         bool exito = _cadeteria.AsignarCadeteAPedido(idPedido, idCadete);
         if (!exito)
+        {
             return NotFound("Pedido o cadete no encontrado");
+
+        }
+
+        datosPedidos.Guardar(_cadeteria.ListadoPedidos);
 
         return Ok("Pedido asignado correctamente");
     }
@@ -86,8 +95,13 @@ public class CadeteriaController : ControllerBase
     public IActionResult CambiarEstadoPedido(int idPedido)
     {
         bool exito = _cadeteria.CambiarEstado(idPedido);
+
         if (!exito)
+        {
             return NotFound("Pedido no encontrado.");
+        }
+
+        datosPedidos.Guardar(_cadeteria.ListadoPedidos);
 
         return Ok("Estado del pedido actualizado con éxito");
     }

@@ -66,20 +66,24 @@ public class Cadeteria
     public bool CambiarEstado(int idPedido)
     {
         Pedido? pedido = listadoPedidos.Find(p => p.NroPedido == idPedido);
+        if (pedido == null) return false;
 
-        if (pedido is null)
+        // Cambiar el estado de Pendiente a Realizado
+        if (pedido.Estado == "Pendiente")
         {
-            return false;
-        }
+            pedido.Estado = "Realizado";
 
-        if (pedido.CadeteAsignado != null)
-        {
-            pedido.CadeteAsignado.Jornal += 500;
-            pedido.CadeteAsignado.PedidosRealizados++;
+            // Actualizamos el jornal del cadete si tiene asignado
+            if (pedido.CadeteAsignado != null)
+            {
+                pedido.CadeteAsignado.Jornal += 500;
+                pedido.CadeteAsignado.PedidosRealizados++;
+            }
         }
 
         return true;
     }
+
 
     public bool ReasignarPedido(int idPedido, int idCadete)
     {
