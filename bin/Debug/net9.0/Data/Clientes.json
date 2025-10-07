@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Supermercado El Sol",
+    "Telefono": "1132124545",
+    "Direccion": "Av. Belgrano 234"
+  },
+  {
+    "Id": 2,
+    "Nombre": "Farmacia San José",
+    "Telefono": "1145789632",
+    "Direccion": "Av. Colón 455"
+  },
+  {
+    "Id": 3,
+    "Nombre": "Panadería La Espiga",
+    "Telefono": "1156987451",
+    "Direccion": "Calle Mendoza 332"
+  },
+  {
+    "Id": 4,
+    "Nombre": "Oficina Estudios Jurídicos Quiroga",
+    "Telefono": "1163321458",
+    "Direccion": "Tucumán 789"
+  },
+  {
+    "Id": 5,
+    "Nombre": "Veterinaria Patitas",
+    "Telefono": "1174458963",
+    "Direccion": "Ruta 34 KM 12"
+  },
+  {
+    "Id": 6,
+    "Nombre": "Boutique Rocío",
+    "Telefono": "1189563214",
+    "Direccion": "Paseo Central Local 15"
+  },
+  {
+    "Id": 7,
+    "Nombre": "Restaurante Los Amigos",
+    "Telefono": "1198745632",
+    "Direccion": "San Martín 543"
+  },
+  {
+    "Id": 8,
+    "Nombre": "Florencia Ortiz",
+    "Telefono": "1103214789",
+    "Direccion": "Casa particular - Barrio Sur => Manzana 3 => Lote 15"
+  },
+  {
+    "Id": 9,
+    "Nombre": "Estación de Servicio YPF",
+    "Telefono": "1136987412",
+    "Direccion": "Av. Roca 1234"
+  },
+  {
+    "Id": 10,
+    "Nombre": "Valentina Ruiz",
+    "Telefono": "1145896321",
+    "Direccion": "Casa particular - Calle Mitre 222"
+  }
+]

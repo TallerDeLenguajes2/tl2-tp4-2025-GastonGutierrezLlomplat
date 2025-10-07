@@ -34,3 +34,37 @@ C:\Users\Alumno\Desktop\TALLER\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\ne
 C:\Users\Alumno\Desktop\TALLER\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.pdb
 C:\Users\Alumno\Desktop\TALLER\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\TALLER\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\ref\tl2-tp4-2025-GastonGutierrezLlomplat.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\appsettings.Development.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\appsettings.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.staticwebassets.endpoints.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.exe
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.deps.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.runtimeconfig.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.pdb
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.xml
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.csproj.AssemblyReference.cache
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.AssemblyInfoInputs.cache
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.AssemblyInfo.cs
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.csproj.CoreCompileInputs.cache
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.MvcApplicationPartsAssemblyInfo.cs
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.MvcApplicationPartsAssemblyInfo.cache
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.sourcelink.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\scopedcss\bundle\tl2-tp4-2025-GastonGutierrezLlomplat.styles.css
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\staticwebassets.build.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\staticwebassets.development.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-.F31F39DC.Up2Date
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\refint\tl2-tp4-2025-GastonGutierrezLlomplat.dll
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.xml
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.pdb
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\tl2-tp4-2025-GastonGutierrezLlomplat.genruntimeconfig.cache
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net8.0\ref\tl2-tp4-2025-GastonGutierrezLlomplat.dll

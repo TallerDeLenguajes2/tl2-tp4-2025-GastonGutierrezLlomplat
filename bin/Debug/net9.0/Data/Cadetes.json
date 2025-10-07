@@ -1,0 +1,62 @@
+[
+    {
+        "Id": 1,
+        "Nombre": "Martin Salim",
+        "Direccion": "Calle Falsa 123",
+        "Telefono": "1122334455"
+    },
+    {
+        "Id": 2,
+        "Nombre": "Enzo Galarza",
+        "Direccion": "Avenida Siempre Viva 742",
+        "Telefono": "1133445566"
+    },
+    {
+        "Id": 3,
+        "Nombre": "Emanuel Rios",
+        "Direccion": "Calle Verdadera 456",
+        "Telefono": "1144556677"
+    },
+    {
+        "Id": 4,
+        "Nombre": "Camila Torres",
+        "Direccion": "Callejón de la Luna 55",
+        "Telefono": "1144667788"
+    },
+    {
+        "Id": 5,
+        "Nombre": "Sebastián Ortega",
+        "Direccion": "Ruta 8 KM 45",
+        "Telefono": "1155778899"
+    },
+    {
+        "Id": 6,
+        "Nombre": "Lucía Gómez",
+        "Direccion": "Pje. San Martín 345",
+        "Telefono": "1166889900"
+    },
+    {
+        "Id": 7,
+        "Nombre": "Tobías Méndez",
+        "Direccion": "Barrio Norte 12",
+        "Telefono": "1177990011"
+    },
+    {
+        "Id": 8,
+        "Nombre": "Agustina Pérez",
+        "Direccion": "Calle 9 de Julio 789",
+        "Telefono": "1188001122"
+    },
+    {
+        "Id": 9,
+        "Nombre": "Bruno Castro",
+        "Direccion": "Calle Rivadavia 321",
+        "Telefono": "1199112233"
+    },
+    {
+        "Id": 10,
+        "Nombre": "Julieta Fernández",
+        "Direccion": "Calle Mitre 888",
+        "Telefono": "1100223344"
+    }
+]

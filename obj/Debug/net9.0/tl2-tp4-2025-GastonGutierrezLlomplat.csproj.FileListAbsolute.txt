@@ -32,3 +32,5 @@ D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\Sw
 D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\tl2-tp4-2025-GastonGutierrezLlomplat.xml
 D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\obj\Debug\net9.0\tl2-tp4-2025-GastonGutierrezLlomplat.xml
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\Data\Cadetes.json
+D:\Facultad Gastón\TL2\tl2-tp4-2025-GastonGutierrezLlomplat\bin\Debug\net9.0\Data\Clientes.json

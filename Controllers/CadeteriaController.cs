@@ -4,17 +4,32 @@ using espacioPedidos;                 // Para acceder a la clase Pedido
 using espacioCadetes;                 // Para acceder a la clase Cadete
 using espacioClientes;                // Para acceder a la clase Cliente
 using System.Collections.Generic;     // Para usar List<>
+using espacioAccesoADatosCadetes;
+using espacioAccesoADatosClientes;
 
 [ApiController]
 [Route("api/[controller]")]
 public class CadeteriaController : ControllerBase
 {
     private static Cadeteria _cadeteria = new Cadeteria("Mi Cadeteria", 12345678);
-    static CadeteriaController()
+    private static AccesoADatosCadetes datosCadetes = new AccesoADatosCadetes();
+    private static AccesoADatosClientes datosClientes = new AccesoADatosClientes();
+
+    public CadeteriaController()
     {
-        _cadeteria.ListadoCadetes.Add(new Cadete(1, "Juan Perez", "Calle 1", "1234"));
-        _cadeteria.ListadoClientes.Add(new Cliente(1, "Cliente 1", "Calle A", "5678"));
+        if (_cadeteria.ListadoCadetes.Count == 0)
+        {
+            _cadeteria.ListadoCadetes.AddRange(datosCadetes.Obtener());
+        }
+        if (_cadeteria.ListadoClientes.Count == 0)
+        {
+            _cadeteria.ListadoClientes.AddRange(datosClientes.Obtener());
+        }
+
+
     }
+
+
     // GET: api/cadeteria/pedidos
     [HttpGet("pedidos")]
     public IActionResult GetPedidos()

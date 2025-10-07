@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\TALLER\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj": {}
+    "D:\\Facultad Gastón\\TL2\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\TALLER\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj": {
+    "D:\\Facultad Gastón\\TL2\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\TALLER\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj",
+        "projectUniqueName": "D:\\Facultad Gastón\\TL2\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj",
         "projectName": "tl2-tp4-2025-GastonGutierrezLlomplat",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\TALLER\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj",
-        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\TALLER\\tl2-tp4-2025-GastonGutierrezLlomplat\\obj\\",
+        "projectPath": "D:\\Facultad Gastón\\TL2\\tl2-tp4-2025-GastonGutierrezLlomplat\\tl2-tp4-2025-GastonGutierrezLlomplat.csproj",
+        "packagesPath": "C:\\Users\\gasto\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad Gastón\\TL2\\tl2-tp4-2025-GastonGutierrezLlomplat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\gasto\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -39,15 +37,16 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[9.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
